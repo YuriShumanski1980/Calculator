@@ -10,18 +10,18 @@ public class DifferenceTest extends CalculatorTest {
     @Test
     public void testDifference() {
         System.out.println("Разность");
-        Assert.assertEquals(8, calculator.difference(10, 2));
+        Assert.assertEquals(calculator.difference(10, 2), 8);
     }
 
     @Test
     public void testDifference1() {
         System.out.println("Разность 1");
-        Assert.assertEquals(45, calculator.difference(100, 55));
+        Assert.assertEquals(calculator.difference(100, 55), 45);
     }
 
     @Test
     public void testDifference2() {
         System.out.println("Разность 2");
-        Assert.assertEquals(2, calculator.difference(7, 5));
+        Assert.assertEquals(calculator.difference(7, 5), 2);
     }
 }

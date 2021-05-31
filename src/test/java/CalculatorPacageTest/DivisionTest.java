@@ -10,18 +10,18 @@ public class DivisionTest extends CalculatorTest {
     @Test
     public void testDivision() {
         System.out.println("Частное");
-        Assert.assertEquals(8, calculator.division(64, 8));
+        Assert.assertEquals(calculator.division(64, 8), 8);
     }
 
     @Test
     public void testDivision2() {
         System.out.println("Частное 2");
-        Assert.assertEquals(15, calculator.division(45, 3));
+        Assert.assertEquals(calculator.division(45, 3), 15);
     }
 
     @Test
     public void testDivision3() {
         System.out.println("Частное 3");
-        Assert.assertEquals(150, calculator.division(600, 4));
+        Assert.assertEquals(calculator.division(600, 4), 150);
     }
 }
